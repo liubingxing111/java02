@@ -9,7 +9,7 @@ public class TestDemo {
         String ret = d.say("heima");
         System.out.println("hello");
         System.out.println("hello2");
-
+        System.out.println("hello1");
         Assert.assertEquals("helloheima", ret);
     }
 }
