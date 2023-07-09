@@ -7,6 +7,7 @@ public class TestDemo {
     public void testSay() {
         Demo d = new Demo();
         String ret = d.say("heima");
+        System.out.println("hello");
         Assert.assertEquals("helloheima", ret);
     }
 }
